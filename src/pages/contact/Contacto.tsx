@@ -16,7 +16,7 @@ return (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Descripción */}
                 <div className="font-fam-ge">
-                <h2 className="text-4xl font-bold mb-4 text-blue-700">Contáctanos</h2>
+                <h2 className="text-5xl font-bold mb-4 text-blue-700">Hablemos</h2>
                 <p className="text-lg text-gray-700 mb-6">
                     ¿Tienes preguntas o deseas una asesoría personalizada? Llena el formulario y uno de nuestros especialistas se pondrá en contacto contigo lo antes posible.
                 </p>

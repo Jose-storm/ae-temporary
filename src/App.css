@@ -5,6 +5,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+*{
+  scroll-behavior: smooth;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -120,6 +124,15 @@
 .font-fam-ge{
   font-family: "Roboto Condensed", sans-serif;
 }
+/* index.css */
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -128,3 +141,4 @@
     @apply bg-background text-foreground;
   }
 }
+

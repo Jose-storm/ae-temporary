@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react"; // Asegúrate de tener lucide-react instalado
+import EquipoN from "./EquipoN";
 
 const Nosotros: React.FC = () => {
     const [openAccordion, setOpenAccordion] = useState<string | null>(null);
@@ -12,8 +13,8 @@ return (
     <>
       {/* Sección 1: Introducción */}
         <section className="bg-gray-100 py-16 px-4">
-            <div className="max-w-5xl mx-auto text-center font-fam-ge">
-            <h1 className="text-4xl font-bold text-blue-700 mb-4">Sobre Nosotros</h1>
+            <div className="max-w-5xl mx-auto font-fam-ge">
+            <h1 className="text-4xl font-bold text-white mb-4 bg-[#103778] py-2">Sobre Nosotros</h1>
             <p className="text-lg text-gray-700">
                 Somos una empresa comprometida con el desarrollo empresarial, brindando soluciones personalizadas que impulsan el crecimiento sostenible de nuestros clientes. Nuestra trayectoria se basa en la confianza, la innovación y el compromiso.
             </p>
@@ -29,7 +30,7 @@ return (
             <div className="border shadow-sm overflow-hidden transition-all">
                 <button
                 onClick={() => toggleAccordion("mision")}
-                className="w-full flex justify-between items-center px-6 py-4 font-semibold text-gray-800 bg-gray-100 hover:bg-gray-200 transition"
+                className="w-full flex justify-between items-center px-6 py-4 font-semibold text-white bg-[#103778] hover:bg-blue-400 transition"
                 >
                 <span>Misión</span>
                 <ChevronDown
@@ -51,7 +52,7 @@ return (
                 <div className="border shadow-sm overflow-hidden transition-all">
                     <button
                     onClick={() => toggleAccordion("vision")}
-                    className="w-full flex justify-between items-center px-6 py-4 font-semibold text-gray-800 bg-gray-100 hover:bg-gray-200 transition"
+                    className="w-full flex justify-between items-center px-6 py-4 font-semibold text-white bg-[#103778] hover:bg-blue-400 transition"
                     >
                     <span>Visión</span>
                     <ChevronDown
@@ -70,6 +71,7 @@ return (
                 </div>
             </div>
         </section>
+        <EquipoN></EquipoN>
     </>
 );
 };

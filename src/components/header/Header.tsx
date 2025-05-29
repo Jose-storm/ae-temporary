@@ -23,7 +23,8 @@ const closeMenu = () => {
         {/* <div className="text-xl font-bold text-white">Asesoría Empresarial</div> */}
         <Link to="/">
           <img
-            src="src/assets/img/ae_logo.png"  // Cambia por la ruta de tu logo
+            // src="src/assets/img/ae_logo.png"
+            src="/img/ae_logo.png"
             alt="Logo Asesoría Empresarial"
             className="h-16 w-auto"
           />
@@ -79,7 +80,7 @@ const closeMenu = () => {
                 >
                   <li>
                     <Link
-                      to="/servicios/web"
+                      to="/servicios/contabilidad"
                       onClick={closeMenu}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
@@ -88,7 +89,7 @@ const closeMenu = () => {
                   </li>
                   <li>
                     <Link
-                      to="/servicios/mobile"
+                      to="/servicios/finanzas"
                       onClick={closeMenu}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
@@ -97,11 +98,20 @@ const closeMenu = () => {
                   </li>
                   <li>
                     <Link
-                      to="/servicios/seo"
+                      to="/servicios/tributo"
                       onClick={closeMenu}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
                       Tributos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/servicios/laboral"
+                      onClick={closeMenu}
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Laboral
                     </Link>
                   </li>
                 </ul>

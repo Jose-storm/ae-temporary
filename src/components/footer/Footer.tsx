@@ -54,7 +54,7 @@ return (
                 <h2 className="bold mb-2">Síguenos</h2>
                 <ul>
                     <li className="inline-block mr-2">
-                        <a href="" className="text-1xl hover:text-[#103778] border-blue-400 hover:bg-blue-400 transition delay-50 duration-300 border-1 px-4 py-3 inline-block rounded-full"><i className="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.instagram.com/asesoriaempresarial.info?igsh=eW5qMXpxMTcyYXpu" className="text-1xl hover:text-[#103778] border-blue-400 hover:bg-blue-400 transition delay-50 duration-300 border-1 px-4 py-3 inline-block rounded-full"><i className="fa-brands fa-square-instagram"></i></a>
                     </li>
                     <li className="inline-block mr-2">
                         <a href="" className="hover:text-[#103778] border-blue-400 border-1 hover:bg-blue-400 transition delay-50 duration-300 px-4 py-3 inline-block rounded-full"><i className="fa-brands fa-tiktok"></i></a>
@@ -64,6 +64,9 @@ return (
                     </li>
                     <li className="inline-block mr-2">
                         <a href="https://www.facebook.com/ConsultorioEmpresarialPeru" className="text-base hover:text-[#103778] border-blue-400 hover:bg-blue-400 transition delay-50 duration-300 border-1 px-5 py-3 inline-block rounded-full"><i className="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li className="inline-block mr-2 mt-2">
+                        <a href="https://youtube.com/@asesoriaempresarialperu?si=frIb5vys2VU6EQp9" className="text-base hover:text-[#103778] border-blue-400 hover:bg-blue-400 transition delay-50 duration-300 border-1 px-4 py-3 inline-block rounded-full"><i className="fa-brands fa-youtube"></i></a>
                     </li>
                 </ul>
             </div>
